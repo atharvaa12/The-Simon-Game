@@ -45,11 +45,7 @@ git clone https://github.com/atharvaa12/The-Simon-Game.git
 ```bash
 cd The-Simon-Game
 ```
-3. Install the required node-modules:
-  ```bash
-npm i
-```
-4. Open the `index.html` file in your web browser.
+3. Open the `index.html` file in your web browser.
 
 ## How to Play
 
