@@ -4,7 +4,7 @@ var iter = 0;
 for (var i = 0; i < 4; i++) {
   
     document.querySelectorAll(".btn")[i].addEventListener("click", function (event) {
-      //var color = event.classList[1];
+      
         checker(event.target.classList[1]); 
     
      
@@ -19,24 +19,7 @@ document.addEventListener("keydown", function () {
 });
 
 var commands = new Array();
-// function start(){
-//     while(gameover==0){
-//         var tile=Math.floor(Math.random()*4);
-//         commands.push(tile);
-//         clicked(tile);
-//         iter=0;
-//         if(gameover==1){
-//             levelNum=0;
-//             document.querySelector("h1").innerHTML="Game Over. Press any key to restart";
-//             break;
-//         }
-//         else{
-//             levelNum=levelNum+1;
-//             document.querySelector("h1").innerHTML="Level"+levelNum;
-//         }
 
-//     }
-// }
 function playnewlevel() {
     iter=0;
   document.querySelector("h1").innerHTML = "Level " + levelNum;
@@ -66,13 +49,7 @@ function checker(event) {
         alert(event);
   }
   clicked(colorNum);
-  // if(iter==commands.length()){
-  //     // document.querySelector("body").classList.add("game-over");
-  //     // var gameover=new Audio("sounds/wrong.mp3");
-  //     // setTimeout(function(){
-  //     //     document.querySelector("body").classList.remove("game-over");
-  //     // },300);
-  // }
+ 
   if (commands[iter] != colorNum) {
     document.querySelector("body").classList.add("game-over");
     var gameover = new Audio("sounds/wrong.mp3");
