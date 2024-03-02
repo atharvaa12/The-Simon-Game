@@ -30,7 +30,7 @@ The Simon Game is a classic memory game where players need to remember and repea
 
 Include a link to a live demo of your Simon game, if available.
 
-[Simon Game Demo](link-to-demo)
+[Simon Game Demo](https://atharvaa12.github.io/The-Simon-Game/)
 
 ## Installation
 
